@@ -1,5 +1,5 @@
 # Lifelong Learning using a Dynamically Growing Tree of Sub-networks for Out-of-Domain Foreground Segmentation
-[![Python](https://img.shields.io/badge/python-2.7%20%7C%203.5-blue.svg?style=flat-square&logo=python&color=3776AB)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/python-3.8-blue.svg?style=flat-square&logo=python&color=3776AB)](https://www.python.org/)
 [![TensorFlow](https://img.shields.io/badge/tensorflow-2.7.0-orange.svg?style=flat-square&logo=tensorflow&color=FF6F00)](https://github.com/y2l/meta-transfer-learning/tree/master/tensorflow)
 
 This repository has the implementation for the paper "Lifelong Learning using a Dynamically Growing Tree of Sub-networks for Out-of-Domain Foreground Segmentation" by Islam Osman and Mohamed S. Shehata
