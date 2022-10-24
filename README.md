@@ -43,7 +43,7 @@ ChangeDetection.Net (CDNet) is a benchmark dataset used to detect changes betwee
 > Figure: Visualization of DGT-Net_L as circular tree after training using YOVOS, CDNet, and DAVIS17. The node in the middle is the root of the tree, nodes in the first inner circle are children of the root node. The node color defines at which stage the node was added. Blue nodes are added during initial phase using YOVOS. Red nodes are added during lifelong learning phase using CDNet. Finally, black nodes are added during the few-shot learning phase using DAVIS17. The visualization is made using ETE toolkit.
 
 <p align="center">
-    <img src="https://github.com/islamosmanubc/DGT/blob/main/figures/visres.png" width="600"/>
+    <img src="https://github.com/islamosmanubc/DGT/blob/main/figures/visres.png" width="800"/>
 </p>
 
 > Figure: Visual results of generalized foreground segmentation of our DGT-Net_L.
