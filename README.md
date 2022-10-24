@@ -7,6 +7,7 @@ This repository has the implementation for the paper "Lifelong Learning using a 
 #### Summary
 * [Introduction](#introduction)
 * [Datasets](#datasets)
+* [Visualization](#visualization)
 * [Results](#results)
 * [Installation](#installation)
 * [How to use](#how-to-use)
@@ -54,3 +55,8 @@ ChangeDetection.Net (CDNet) is a benchmark dataset used to detect changes betwee
 
 > Figure: Visual results of generalized foreground segmentation of our DGT against other models.
 
+## Results
+
+## Installation
+
+## How to use
