@@ -10,7 +10,7 @@ This repository has the implementation for the paper "Lifelong Learning using a 
 * [Visualization](#visualization)
 * [Results](#results)
 * [Installation](#installation)
-* [Pre-trained Weights] (#pre-trained)
+* [Pre-trained Weights](#pre-trained)
 
 ## Introduction
 This paper proposes a lifelong learning technique using dynamically growing tree of sub-networks (DGT). This tree dynamically add sub-networks to learn from new videos. Hence, reduce the catastrophic forgetting problem. Additionally, DGT can learn from new videos using a few number of labeled frames by clustering each new video to the most similar group of videos. To summarize, the novelties of this paper are as follows: 
