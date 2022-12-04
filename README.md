@@ -66,6 +66,7 @@ ChangeDetection.Net (CDNet) is a benchmark dataset used to detect changes betwee
 To run the code, you need to install:
 * python 3.8
 * Tensorflow-gpu v2.7.0
+
 Also, you need to install some extra packages:
 * scipy
 * scikit
