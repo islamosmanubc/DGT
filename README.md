@@ -10,6 +10,7 @@ This repository has the implementation for the paper "Lifelong Learning using a 
 * [Visualization](#visualization)
 * [Results](#results)
 * [Installation](#installation)
+* [Pre-trained Weights] (#pre-trained)
 
 ## Introduction
 This paper proposes a lifelong learning technique using dynamically growing tree of sub-networks (DGT). This tree dynamically add sub-networks to learn from new videos. Hence, reduce the catastrophic forgetting problem. Additionally, DGT can learn from new videos using a few number of labeled frames by clustering each new video to the most similar group of videos. To summarize, the novelties of this paper are as follows: 
@@ -70,3 +71,8 @@ Also, you need to install some extra packages:
 * scikit
 * pillow
 
+## Pre-trained Weights
+The pre-trained weights are available on this link:
+
+The "base_weights" folder has the weights of the trained model without DGT. On the other hand, "growing_tree_weights" has the weights of the full tree DGT.
+There are 3 files, 1 for davis16, 1 for segtrackv2, and 1 for the DGT generalization experiment shown in the paper that uses all 3 datasets, namely, YOVOS, CDNet, and DAVIS17.
