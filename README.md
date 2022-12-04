@@ -73,7 +73,6 @@ Also, you need to install some extra packages:
 
 ## Pre-trained Weights
 The pre-trained weights are available on this link:
-
 [pre-trained weights](https://drive.google.com/drive/folders/1PIw4zsekFuQqzrDf5NDJ_yLReTqu8xIq?usp=sharing)
 
 The "base_weights" folder has the weights of the trained model without DGT. On the other hand, "growing_tree_weights" has the weights of the full tree DGT.
