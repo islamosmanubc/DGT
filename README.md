@@ -10,7 +10,6 @@ This repository has the implementation for the paper "Lifelong Learning using a 
 * [Visualization](#visualization)
 * [Results](#results)
 * [Installation](#installation)
-* [How to use](#how-to-use)
 
 ## Introduction
 This paper proposes a lifelong learning technique using dynamically growing tree of sub-networks (DGT). This tree dynamically add sub-networks to learn from new videos. Hence, reduce the catastrophic forgetting problem. Additionally, DGT can learn from new videos using a few number of labeled frames by clustering each new video to the most similar group of videos. To summarize, the novelties of this paper are as follows: 
@@ -56,7 +55,18 @@ ChangeDetection.Net (CDNet) is a benchmark dataset used to detect changes betwee
 > Figure: Visual results of generalized foreground segmentation of our DGT against other models.
 
 ## Results
+|          Methods       |     SegTrackV2    |      DAVIS16     |    YOVOS    | Cont. CDNet  |Cont. DAVIS17 1-shot| 
+| ---------------------- | ----------------- | ---------------- | ----------- | ------------ | ------------------ |
+| `DGT-NetS`             |      `0.948`      |      `0.940`     |   `0.751`   |   `0.660`    |       `0.716`      |
+| `DGT-NetL`             |      `0.954`      |      `0.949`     |   `0.825`   |   `0.751`    |       `0.742`      |
+
 
 ## Installation
+To run the code, you need to install:
+* python 3.8
+* Tensorflow-gpu v2.7.0
+Also, you need to install some extra packages:
+* scipy
+* scikit
+* pillow
 
-## How to use
