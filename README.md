@@ -21,7 +21,7 @@ This paper proposes a lifelong learning technique using dynamically growing tree
 * DGT can learn to segment new videos using a few number of labeled frames by fine-tuning the set of parameters that is used to segment similar videos.
 
 <p align="center">
-    <img src="https://github.com/islamosmanubc/DGT/blob/main/figures/test1.png" width="1200"/>
+    <img src="https://github.com/islamosmanubc/DGT/blob/main/figures/testing1.png" width="1200"/>
 </p>
 
 > Figure: Process of DGT in testing phase. This is the tree generated after training using DAVIS16. The new video is from the testing set and does not exist in the tree. The process of finding the suitable node is done using the greedy algorithm used in lifelong learning phase. The color of network's blocks represent which node is used to generate the parameters.
