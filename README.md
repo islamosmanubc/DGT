@@ -19,9 +19,8 @@ This paper proposes a lifelong learning technique using a dynamically growing tr
     
 * DGT solves the problem of catastrophic forgetting as learning to segment new videos will update a set of parameters isolated from other sets. Hence, parameters used to segment previously trained videos will not be affected.
 * DGT can learn to segment new videos using a few labeled frames by fine-tuning the set of parameters used to segment similar videos.
-
 <p align="center">
-    <img src="https://github.com/islamosmanubc/DGT/blob/main/figures/testing1.png" width="1200"/>
+    <img src="https://github.com/islamosmanubc/DGT/blob/main/figures/dgtpro.png" width="1200"/>
 </p>
 
 > Figure: Process of DGT in the testing phase. This is the tree generated after training using DAVIS16. The new video is from the testing set and does not exist in the tree. Finding the suitable node is done using the greedy algorithm used in the lifelong learning phase. The color of the network's blocks represents which node is used to generate the parameters.
@@ -44,7 +43,7 @@ ChangeDetection.Net (CDNet) is a benchmark dataset used to detect changes betwee
 > Figure: Visualization of DGT-Net_L as a circular tree after training using YT-VOS18, CDNet, and DAVIS17. The node in the middle is the root of the tree, and the nodes in the first inner circle are children of the root node. The node color defines at which stage the node was added. Blue nodes are added during the initial phase using YT-VOS18. Red nodes are added during the lifelong learning phase using CDNet. Finally, black nodes are added during the few-shot learning phase using DAVIS17. The visualization is made using the ETE toolkit.
 
 <p align="center">
-    <img src="https://github.com/islamosmanubc/DGT/blob/main/figures/visres.png" width="800"/>
+    <img src="https://github.com/islamosmanubc/DGT/blob/main/figures/mres.png" width="800"/>
 </p>
 
 > Figure: Visual results of multiple source domains for video object segmentation of our DGT-Net_L.
