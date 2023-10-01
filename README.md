@@ -75,5 +75,3 @@ Also, you need to install some extra packages:
 The pre-trained weights are available on this link:
 [pre-trained weights](https://drive.google.com/drive/folders/1PIw4zsekFuQqzrDf5NDJ_yLReTqu8xIq?usp=sharing)
 
-The "base_weights" folder has the weights of the trained model without DGT. On the other hand, "growing_tree_weights" has the weights of the full tree DGT.
-There are three files: 1 for davis16, 1 for segtrackv2, and 1 for the DGT generalization experiment shown in the paper that uses all three datasets, namely, YT-VOS18, CDNet, and DAVIS17.
