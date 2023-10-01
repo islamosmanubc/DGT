@@ -23,7 +23,7 @@ This paper proposes a lifelong learning technique using a dynamically growing tr
     <img src="https://github.com/islamosmanubc/DGT/blob/main/figures/dgtpro.png" width="1200"/>
 </p>
 
-> Figure: Process of DGT in the testing phase. This is the tree generated after training using DAVIS16. The new video is from the testing set and does not exist in the tree. Finding the suitable node is done using the greedy algorithm used in the lifelong learning phase. The color of the network's blocks represents which node is used to generate the parameters.
+> Figure: Process of DGT in the testing phase. First, an agent requests a suitable network from DGT for the new video using a labeled reference frame. Then, DGT generates a task-specific network by selecting a suitable node for each layer of the network. Finally, the generated network is sent to the agent to segment the new video frames.
 
 ## Datasets
 Densely Annotated VIdeo Segmentation (DAVIS) 2016 and 2017 is a video object segmentation dataset. Each video has a number of frames ranging from 50 to 104. In DAVIS16, a single object is annotated, which is the object of interest in this video. The videos are split into 33 training videos and 20 testing videos. On the other hand, DAVIS17 has multiple object annotations. The videos are split by frames into training and validation sets.
